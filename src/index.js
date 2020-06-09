@@ -3,11 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import introduction from './Introduction';
+import Introduction from './Introduction';
+import Title from './Title';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />,<title />,<introduction />
+    <App />,<Title />,<Introduction />
   </React.StrictMode>,
   document.getElementById('root')
 );
