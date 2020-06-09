@@ -11,3 +11,5 @@ function title() {
       </div>
     );
   }
+
+  export default title;

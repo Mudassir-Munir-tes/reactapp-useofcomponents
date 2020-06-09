@@ -21,3 +21,6 @@ function introduction() {
        
       </div>
     );
+}
+
+export default introduction;
