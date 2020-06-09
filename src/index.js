@@ -8,7 +8,7 @@ import Title from './Title';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />,<Title />,<Introduction />
+    <App />,<Title />,<Introduction name="MUDASSIR MUNIR"  />
   </React.StrictMode>,
   document.getElementById('root')
 );

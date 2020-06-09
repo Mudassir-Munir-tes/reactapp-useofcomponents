@@ -1,10 +1,11 @@
 import React from 'react';
+import Resourceslnk from './Resourceslink'
 
-function introduction() {
+function introduction(obj) {
     return (
       <div>
     
-           Hello! My name is <strong>Mudassir Munir.</strong>
+           Hello! My name is <strong>{obj.name}.</strong>
            I will tell you oppurtunities in freelance marketplace.You can start your career with them.
            These are listed below.
            <ol><li>creative writer</li>
@@ -18,7 +19,7 @@ function introduction() {
            
            </ol>
           
-       
+        <Resourceslnk />
       </div>
     );
 }
