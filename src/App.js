@@ -5,13 +5,13 @@ import './App.css';
 function App() {
   return (
     <div>
-      <header className="App-header">
+     
         <img src={logo} className="App-logo" alt="logo" />
        
         
           Learn React
         
-      </header>
+     
     </div>
   );
 }
