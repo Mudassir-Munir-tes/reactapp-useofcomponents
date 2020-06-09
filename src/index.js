@@ -1,15 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import './App.css'
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import Introduction from './Introduction';
 import Title from './Title';
 
 ReactDOM.render(
-  <React.StrictMode>
+  <div className="App-header">
+  
     <App />,<Title />,<Introduction name="MUDASSIR MUNIR"  />
-  </React.StrictMode>,
+  
+  </div>,
   document.getElementById('root')
 );
 
