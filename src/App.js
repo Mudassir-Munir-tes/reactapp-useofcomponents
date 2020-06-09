@@ -6,10 +6,10 @@ function App() {
   return (
     <div>
      
-       
+       <center><img src={logo} className="App-logo" alt="logo" /></center> 
        
         
-          Hello world
+          
         
      
     </div>
